@@ -1,0 +1,47 @@
+SecureCrypt-CPP/
+│
+├── src/
+│   ├── main.cpp
+│   │
+│   ├── gui/
+│   │     main_window.cpp
+│   │     encrypt_view.cpp
+│   │     decrypt_view.cpp
+│   │
+│   ├── controller/
+│   │     app_controller.cpp
+│   │
+│   ├── crypto/
+│   │     xor_cipher.cpp
+│   │     aes_cipher.cpp
+│   │     hash.cpp
+│   │     key_generator.cpp
+│   │
+│   ├── file/
+│   │     file_manager.cpp
+│   │
+│   └── utils/
+│         logger.cpp
+│         helpers.cpp
+│
+├── include/
+│   ├── gui/
+│   ├── controller/
+│   ├── crypto/
+│   ├── file/
+│   └── utils/
+│
+├── tests/
+│     crypto_tests.cpp
+│     file_tests.cpp
+│
+├── assets/
+│     icons/
+│     themes/
+│
+├── docs/
+│     architecture.md
+│     screenshots/
+│
+├── CMakeLists.txt
+└── README.md
