@@ -1,0 +1,42 @@
+TrustIssues/
+├── main.cpp
+│
+├── GUI/
+│   ├── GUIManager.h
+│   ├── GUIManager.cpp
+│
+├── Auth/
+│   ├── AuthManager.h
+│   ├── AuthManager.cpp
+│
+├── Crypto/
+│   ├── CipherEngine.h
+│   ├── CipherEngine.cpp
+│
+├── Storage/
+│   ├── StorageMaster.h
+│   ├── StorageMaster.cpp
+│
+├── Utils/
+│   ├── Utils.h
+│   ├── Utils.cpp
+│
+├── Data/
+│   ├── vault.bin
+│   ├── users.bin
+
+-------------------------------------------------------------
+Flow :
+User
+ ↓
+GUI
+ ↓
+main.cpp
+ ↓
+AuthManager
+ ↓
+Crypto
+ ↓
+Storage
+ ↓
+Data/
