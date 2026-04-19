@@ -1,0 +1,10 @@
+^C:\USERS\SPARK\DESKTOP\101_PROJECT\TRUSTISSUES-\BUILD\CMAKEFILES\6C23B5C68E5F3B9098B7AA6BA80A1300\GENERATE.STAMP.RULE
+setlocal
+C:\Users\SPARK\AppData\Local\Programs\Python\Python313\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/SPARK/Desktop/101_project/TrustIssues- -BC:/Users/SPARK/Desktop/101_project/TrustIssues-/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/SPARK/Desktop/101_project/TrustIssues-/build/TrustIssues.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

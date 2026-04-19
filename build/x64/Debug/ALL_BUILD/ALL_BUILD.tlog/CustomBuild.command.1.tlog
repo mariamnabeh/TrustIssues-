@@ -1,0 +1,10 @@
+^C:\USERS\SPARK\DESKTOP\101_PROJECT\TRUSTISSUES-\CMAKELISTS.TXT
+setlocal
+C:\Users\SPARK\AppData\Local\Programs\Python\Python313\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/SPARK/Desktop/101_project/TrustIssues- -BC:/Users/SPARK/Desktop/101_project/TrustIssues-/build --check-stamp-file C:/Users/SPARK/Desktop/101_project/TrustIssues-/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

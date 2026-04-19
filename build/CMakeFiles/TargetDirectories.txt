@@ -1,0 +1,3 @@
+C:/Users/SPARK/Desktop/101_project/TrustIssues-/build/CMakeFiles/TrustIssues.dir
+C:/Users/SPARK/Desktop/101_project/TrustIssues-/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/SPARK/Desktop/101_project/TrustIssues-/build/CMakeFiles/ZERO_CHECK.dir
