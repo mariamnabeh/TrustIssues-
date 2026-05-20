@@ -23,7 +23,7 @@ int main() {
     cout << "Step 1: File loaded successfully. Size: " << data.size() << " bytes." << endl;
 
     // 3. Encrypt the data
-    FileHandler::encryptDecrypt(data, myKey);
+    FileHandler::encryptDecrypt(data, myKey); // scope resolution
     FileHandler::writefile(encryptedFile, data);
     cout << "Step 2: File encrypted and saved as " << encryptedFile << endl;
 
